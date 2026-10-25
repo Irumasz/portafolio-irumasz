@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined&icon_names=pets">
+    <meta name="author" content="Maria Amaro">
+    <meta name="description" content="Portafolio personal de Maria Amaro, estudiante de Tecnologías de la Información e Innovación Digital.">
+    <meta name="keywords" content="Maria Amaro, Irumasz, portafolio, mercadotecnia digital, animación 2D, animación 3D">
+    <link rel="shortcut icon" href="imagenes/maria-amaro.jpeg" type="image/jpeg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Maria Amaro | Irumasz</title>
+</head>
+<body>
+<header class="navbar navbar-expand-lg navbar-dark py-0 fixed-top">
+    <nav class="container">
+        <a class="navbar-brand" href="#inicio">Maria Amaro | Irumasz</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link" href="#sobre-mi">Sobre mí</a>
+                <a class="nav-link" href="#intereses">Mis intereses</a>
+                <a class="nav-link" href="contacto.html">Contacto</a>
+            </div>
+        </div>
+    </nav>
+</header>
+<section id="inicio" class="container py-5 mt-5">
+    <div class="row">
+        <figure class="col-lg-5 col-12 text-center"></figure>
+            <img src="imagenes/maria-amaro.jpeg" alt="Foto de Maria Amaro" class="img-fluid rounded-circle">
+        </figure>
+
+        <article class="col-lg-7 col-12 text-center"></article>
+            <h1 class="display-4 fw-bold">Maria Amaro</h1>
+            <h2>Irumasz</h2>
+            <p>Estudiante de Tecnologías de la Información e Innovación Digital</p>
+        </article>
+    </div>
+</section>
+
+<section id="sobre-mi" class="text-center text-white py-5">
+    <article class="container">
+        <h2 class="display-4 fw-bold">Sobre mí</h2>
+        <span class="material-symbols-outlined icono">pets</span>
+        <p class="fs-4">
+            Estudio Tecnologías de la Información e Innovación Digital.
+            Me interesan especialmente la mercadotecnia digital y la animación 2D y 3D.
+        </p>
+    </article>
+</section>
+
+<section id="intereses" class="container py-5">
+    <h2 class="display-4 fw-bold text-center">Mis intereses</h2>
+
+    <div class="row">
+        <article class="col-10 offset-1 col-md-6 col-lg-4 mb-3">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title fw-bold">Mercadotecnia digital</h3>
+                    <p class="card-text">Me interesa la creatividad y la comunicación en medios digitales.</p>
+                    <a href="#modal-interes" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-interes">Ver más...</a>
+                </div>
+            </div>
+        </article>
+
+        <article class="col-10 offset-1 col-md-6 col-lg-4 mb-3">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title fw-bold">Animación 2D y 3D</h3>
+                    <p class="card-text">Disfruto aprender sobre animación y crear ideas con imágenes en movimiento.</p>
+                    <a href="#modal-interes" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-interes">Ver más...</a>
+                </div>
+            </div>
+        </article>
+
+        <article class="col-10 offset-1 col-md-6 col-lg-4 mb-3">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title fw-bold">Música y gatos</h3>
+                    <p class="card-text">Me gusta escuchar música de todo tipo y tengo un cariño especial por los gatos.</p>
+                    <a href="#modal-interes" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-interes">Ver más...</a>
+                </div>
+            </div>
+        </article>
+    </div>
+</section>
+<div class="modal fade" id="modal-interes" tabindex="-1" aria-labelledby="titulo-modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title fs-5" id="titulo-modal">Un poco más sobre mí</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body">
+                <p>Me gusta combinar la creatividad con la tecnología y seguir aprendiendo sobre mis intereses.</p>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+<section id="musica" class="container py-5">
+    <h2 class="display-4 fw-bold text-center">Una canción que me gusta</h2>
+
+    <article class="multimedios">
+        <iframe id="youtube" src="https://www.youtube.com/embed/oxPpxhcgTt4" title="Video de YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </article>
+
+    <h3>Escuchar la canción</h3>
+<audio src="medios/audio/dont-cry.mp3" controls></audio>
+
+</section>
+
+<footer class="text-center py-4">
+    <p>Maria Amaro | Irumasz</p>
+    <a href="https://www.instagram.com/Irumas_/" class="nav-link">Instagram: @Irumas_</a>
+    <p>WhatsApp: 4771409112</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
