@@ -98,6 +98,111 @@ footer{
     text-align: center;
     margin-bottom: 30px;
 }
+.seccion-creativa{
+    background: linear-gradient(135deg, #211d42, #302858);
+}
+
+.etiqueta-seccion{
+    color: #c5b5ff;
+    font-family: Arial, sans-serif;
+    font-size: .8rem;
+    letter-spacing: .18em;
+    text-transform: uppercase;
+}
+
+.bloque-idea{
+    background-color: #17152f;
+    border: 1px solid rgba(197,181,255,.35);
+    border-radius: 18px;
+    padding: 28px;
+}
+
+.bloque-idea h3,
+.habilidad-item h3{
+    font-size: 1.35rem;
+    margin: 12px 0;
+}
+
+.bloque-idea p,
+.habilidad-item p{
+    font-family: Arial, sans-serif;
+    line-height: 1.65;
+    margin-bottom: 0;
+}
+
+.icono-idea{
+    color: #c5b5ff;
+    font-family: Arial, sans-serif;
+    font-size: 2.4rem;
+}
+
+.panel-creatividad{
+    min-height: 280px;
+    border-radius: 18px;
+    padding: 28px;
+    background: radial-gradient(circle at 70% 25%, rgba(197,181,255,.55), transparent 18%), linear-gradient(145deg, #8068c2, #302858 65%, #17152f);
+}
+
+.panel-kicker,
+.panel-habilidades-visual span{
+    font-family: Arial, sans-serif;
+    font-size: .75rem;
+    letter-spacing: .14em;
+}
+
+.panel-creatividad p{
+    font-size: 1.35rem;
+    margin: 10px 0 0;
+}
+
+.panel-habilidades{
+    overflow: hidden;
+    border: 1px solid rgba(197,181,255,.3);
+    border-radius: 20px;
+    background-color: #1b1935;
+}
+
+.habilidad-item{
+    display: flex;
+    gap: 18px;
+    margin-bottom: 28px;
+}
+
+.numero-habilidad{
+    color: #c5b5ff;
+    font-family: Arial, sans-serif;
+    font-size: 1.1rem;
+}
+
+.panel-habilidades-visual{
+    min-height: 430px;
+    padding: 40px;
+    background: linear-gradient(0deg, rgba(17,17,38,.9), rgba(17,17,38,.08)), radial-gradient(ellipse at 70% 30%, #c5b5ff 0 5%, transparent 5.5%), linear-gradient(135deg, #63529a, #342c59 52%, #17152f);
+}
+
+.panel-habilidades-visual p{
+    font-size: 2.2rem;
+    margin: 10px 0 0;
+}
+
+@media (max-width: 767px){
+    #inicio img{
+        width: 65%;
+        margin-bottom: 24px;
+    }
+
+    #intereses{
+        padding: 40px 20px;
+    }
+
+    #youtube{
+        height: 240px;
+    }
+
+    .panel-habilidades-visual{
+        min-height: 280px;
+    }
+}
 
 #youtube{
     width: 90%;
